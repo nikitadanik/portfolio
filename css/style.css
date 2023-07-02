@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Gilroy";
+  src: local(".fonts/Gilroy Bold"), local("Gilroy-Bold"), url(".fonts/Gilroy-Bold.woff2") format("woff2"), url(".fonts/Gilroy-Bold.woff") format("woff"), url(".fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local(".fonts/Gilroy Medium"), local("Gilroy-Medium"), url(".fonts/Gilroy-Medium.woff2") format("woff2"), url(".fonts/Gilroy-Medium.woff") format("woff"), url(".fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body, html {
+  font-family: "Gilroy";
+  font-size: 18px;
+  color: #070707;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 34px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.nav {
+  border-bottom: 1px solid #828282;
+}
+.nav__list {
+  margin-top: 35px;
+  margin-bottom: 31px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.nav__link {
+  text-decoration: none;
+  color: #828282;
+  font-weight: 700;
+}
+.nav__link:hover, .nav__link:active {
+  color: #070707;
+}
+
+.main__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+.main__title {
+  margin: 0;
+  font-size: 47px;
+  font-weight: 700;
+  width: 123px;
+}
+.main__text {
+  font-size: 18px;
+  width: 145px;
+  font-weight: 500;
+}
+.main__links {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+.main__link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #828282;
+}
+.main__link--active {
+  color: #000;
+}
+.main__link:first-child::after {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 5px;
+}
+.main__photo {
+  margin-bottom: 104px;
+}
+.main__image {
+  width: 100%;
+}
+
+.about {
+  background-color: #F6F6F6;
+  padding-bottom: 120px;
+}
+.about__title {
+  padding-top: 120px;
+}
+.about__subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.skills__title {
+  padding-top: 91px;
+  margin-bottom: 69px;
+}
+.skills__subtitle {
+  line-height: 22px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 83px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+.cards__image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 23px;
+}
+.cards__title {
+  width: 90px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 41px;
+}
+.cards__stars {
+  align-self: flex-end;
+}
+
+.portfolio {
+  background: #F6F6F6;
+  padding-bottom: 96px;
+}
+.portfolio__title {
+  padding-top: 112px;
+  margin-bottom: 47px;
+}
+.portfolio__photo {
+  width: 100%;
+  margin-bottom: 44px;
+}
+.portfolio__link {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #070707;
+  text-decoration-line: underline;
+  font-weight: 500;
+  margin-bottom: 96px;
+}
+
+.footer__title {
+  padding-top: 114px;
+  margin-bottom: 20px;
+}
+.footer__subtitle {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-bottom: 29px;
+}
+.footer__btn {
+  display: block;
+  margin: 0 auto;
+  width: 180.5px;
+  height: 42px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000;
+  border: 0;
+  border-radius: 30px;
+  margin-bottom: 79px;
+  transition: all 0.2s linear;
+}
+.footer__btn:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.footer__social {
+  margin: 0 auto;
+  max-width: 342px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.footer__text {
+  color: #828282;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 123px;
+}/*# sourceMappingURL=style.css.map */

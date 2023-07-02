@@ -1,0 +1,54 @@
+.footer {
+    &__title {
+        padding-top: 114px;
+        margin-bottom: 20px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+        margin-bottom: 29px;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        width: 180.5px;
+        height: 42px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #000;
+        border: 0;
+        border-radius: 30px;
+        margin-bottom: 79px;
+        transition: all .2s linear;
+
+        &:hover {
+        color: #000;
+        background-color: #fff;
+        border: 1px solid black;
+        }
+    }
+
+    &__social {
+        margin: 0 auto;
+        max-width: 342px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 45px;
+    }
+
+    &__text {
+        color: #828282;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        margin-bottom: 123px;
+    }
+}
